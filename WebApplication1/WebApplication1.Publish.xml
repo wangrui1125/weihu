@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="Y:\预约系统" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="False" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="预约系统" publishMethod="FTP" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="Web.config" publishTime="03/09/2017 19:36:19" />
+    <file relUrl="Appointment.aspx" publishTime="03/19/2017 19:07:15" />
+    <file relUrl="Site.Master" publishTime="05/04/2017 12:38:19" />
+    <file relUrl="Account/Web.config" publishTime="03/03/2017 12:42:36" />
+    <file relUrl="Account/Register.aspx" publishTime="05/04/2017 13:36:51" />
+    <file relUrl="Account/ChangePasswordSuccess.aspx" publishTime="03/03/2017 12:42:36" />
+    <file relUrl="Account/Login.aspx" publishTime="05/04/2017 12:42:40" />
+    <file relUrl="Styles/Site.css" publishTime="03/26/2017 17:34:43" />
+    <file relUrl="Scripts/jquery-1.4.1.js" publishTime="03/03/2017 12:42:36" />
+    <file relUrl="Account/ChangePassword.aspx" publishTime="03/03/2017 12:42:36" />
+    <file relUrl="Notic.aspx" publishTime="04/03/2018 16:29:54" />
+    <file relUrl="bin/WebApplication1.dll" publishTime="04/03/2018 16:37:21" />
+    <file relUrl="bin/WebApplication1.pdb" publishTime="04/03/2018 16:37:21" />
+    <file relUrl="Scripts/jquery-1.4.1-vsdoc.js" publishTime="03/03/2017 12:42:36" />
+    <file relUrl="About.aspx" publishTime="04/03/2018 16:19:36" />
+    <file relUrl="Global.asax" publishTime="03/03/2017 12:42:36" />
+    <file relUrl="Default.aspx" publishTime="04/03/2018 16:32:50" />
+    <file relUrl="Scripts/jquery-1.4.1.min.js" publishTime="03/03/2017 12:42:36" />
+  </publishProfile>
+</publishData>
