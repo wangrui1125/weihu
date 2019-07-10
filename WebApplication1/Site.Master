@@ -29,7 +29,7 @@
         <div class="header">
             <div class="title">
                 <h1>
-                    VSM&PPMS预约系统
+                    实验室设备维护
                 </h1>                
             </div>
              <div class="loginDisplay">
@@ -48,8 +48,9 @@
                     EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal" 
                     onmenuitemclick="NavigationMenu_MenuItemClick">
                     <Items>
-                        <asp:MenuItem NavigateUrl="~/Default.aspx" Text="VSM"/>
-                        <asp:MenuItem NavigateUrl="~/About.aspx" Text="PPMS"/>
+                        <asp:MenuItem NavigateUrl="~/stx.aspx" Text="手套箱"/>
+                        <asp:MenuItem NavigateUrl="~/fzb.aspx" Text="分子泵"/>
+                        <asp:MenuItem NavigateUrl="~/qt.aspx" Text="其他"/>
                     </Items>
                 </asp:Menu>
             </div>

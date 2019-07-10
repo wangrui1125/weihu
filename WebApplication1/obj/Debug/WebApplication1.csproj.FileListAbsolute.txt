@@ -6,3 +6,13 @@ C:\Users\Administrator\documents\visual studio 2010\Projects\WebApplication1\Web
 C:\Users\Administrator\documents\visual studio 2010\Projects\WebApplication1\WebApplication1\obj\Debug\Interop.Microsoft.Office.Interop.Excel.dll
 C:\Users\Administrator\documents\visual studio 2010\Projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.ResolveComReference.cache
 C:\Users\Administrator\documents\visual studio 2010\Projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\FangCloudV2\iop\weihu\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\FangCloudV2\iop\weihu\WebApplication1\obj\Debug\WebApplication1.csproj.ResolveComReference.cache
+C:\Users\Administrator\Desktop\FangCloudV2\iop\weihu\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\Administrator\Desktop\FangCloudV2\iop\weihu\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\Administrator\Desktop\FangCloudV2\iop\weihu\WebApplication1\bin\WebApplication1.dll.config
+C:\Users\Administrator\Desktop\FangCloudV2\iop\weihu\WebApplication1\bin\WebApplication1.dll
+C:\Users\Administrator\Desktop\FangCloudV2\iop\weihu\WebApplication1\bin\WebApplication1.pdb
+C:\Users\Administrator\Desktop\FangCloudV2\iop\weihu\WebApplication1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Administrator\Desktop\FangCloudV2\iop\weihu\WebApplication1\bin\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\FangCloudV2\iop\weihu\WebApplication1\bin\Newtonsoft.Json.xml
