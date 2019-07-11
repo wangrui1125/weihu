@@ -9,12 +9,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
        
        <marquee>
-           <asp:Label ID="Label0" runat="server" Text="Label"></asp:Label></marquee>
-  
-      
-    
-      
- 
+           <asp:Label ID="Label0" runat="server" Text="Label"></asp:Label></marquee>  
        
        <table class="auto-style1">
            <tr>

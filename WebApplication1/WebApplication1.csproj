@@ -74,11 +74,12 @@
     <Content Include="Account\ChangePasswordSuccess.aspx" />
     <Content Include="Account\Login.aspx" />
     <Content Include="Account\Register.aspx" />
-    <Content Include="adddate.aspx" />
+    <Content Include="addjilu.aspx" />
     <Content Include="Appointment.aspx" />
     <Content Include="fzb.aspx" />
     <Content Include="Notic.aspx" />
     <Content Include="qt.aspx" />
+    <Content Include="setobject.aspx" />
     <Content Include="stx.aspx" />
     <Content Include="Styles\Site.css" />
     <Content Include="Default.aspx" />
@@ -133,12 +134,12 @@
     <Compile Include="Account\Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
     </Compile>
-    <Compile Include="adddate.aspx.cs">
-      <DependentUpon>adddate.aspx</DependentUpon>
+    <Compile Include="addjilu.aspx.cs">
+      <DependentUpon>addjilu.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="adddate.aspx.designer.cs">
-      <DependentUpon>adddate.aspx</DependentUpon>
+    <Compile Include="addjilu.aspx.designer.cs">
+      <DependentUpon>addjilu.aspx</DependentUpon>
     </Compile>
     <Compile Include="Appointment.aspx.cs">
       <DependentUpon>Appointment.aspx</DependentUpon>
@@ -179,6 +180,13 @@
     </Compile>
     <Compile Include="qt.aspx.designer.cs">
       <DependentUpon>qt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="setobject.aspx.cs">
+      <DependentUpon>setobject.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="setobject.aspx.designer.cs">
+      <DependentUpon>setobject.aspx</DependentUpon>
     </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
