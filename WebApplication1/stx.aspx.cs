@@ -11,7 +11,9 @@ using System.Drawing;
 namespace WebApplication1
 {
     public partial class stx : System.Web.UI.Page
-    {        
+    {
+        List<string> oids = new List<string>();
+        List<string> otypes = new List<string>();
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -37,6 +39,12 @@ namespace WebApplication1
                 foreach (DataRow dri in objDataset1.Tables[0].Rows)
                 {
                     string sbID = dri[0].ToString();
+                    oids.Add(sbID);
+                    string sbtype = dri[2].ToString();
+                    otypes.Add(sbtype);
+
+
+
                     Panel panel0 = new Panel();
                     panel0.ID = "Panal0" + panelindex.ToString();
 
@@ -106,7 +114,7 @@ namespace WebApplication1
 
                     Button bt1 = new Button();
                     bt1.Text = "设置";
-                    bt1.ID = "buttun0" + btindex.ToString();
+                    bt1.ID = "buttun_" + btindex.ToString();
                     bt1.Click += new EventHandler(setbutton_click);//使用事件函数句柄指向一个具体的函数
 
                     panel0.Controls.Add(bt1);
@@ -115,47 +123,52 @@ namespace WebApplication1
 
                     Button bt2 = new Button();
                     bt2.Text = "再生";
-                    bt2.ID = "buttun0" + btindex.ToString();
+                    bt2.ID = "buttun_" + btindex.ToString();
                     panel0.Controls.Add(bt2);
                     btindex = btindex + 1;                    
-                    bt2.Click += new EventHandler(julubutton_click);//使用事件函数句柄指向一个具体的函数
+                    bt2.Click += new EventHandler(jilubutton_click);//使用事件函数句柄指向一个具体的函数
                    
 
                     //bt2.Click += new EventHandler(this.julubutton_click);
 
                     Button bt3 = new Button();
                     bt3.Text = "洗气";
-                    bt3.ID = "buttun0" + btindex.ToString();
+                    bt3.ID = "buttun_" + btindex.ToString();
                     panel0.Controls.Add(bt3);
                     btindex = btindex + 1;
-                    bt3.Click += new EventHandler(julubutton_click);//使用事件函数句柄指向一个具体的函数
+                    bt3.Click += new EventHandler(jilubutton_click);//使用事件函数句柄指向一个具体的函数
                     
 
 
                     Button bt4 = new Button();
-                    bt4.Text = "记录";
-                    bt4.ID = "buttun0" + btindex.ToString();
+                    bt4.Text = "记录表";
+                    bt4.ID = "buttun_" + btindex.ToString();
                     panel0.Controls.Add(bt4);
                     btindex = btindex + 1;
-                  
+                    bt4.Click += new EventHandler(jilutablebutton_click);//使用事件函数句柄指向一个具体的函数
 
                     panel0.BorderColor = Color.Blue;
                     panel0.BorderWidth = 3;
-                    panel0.Font.Size = 15;
+                    panel0.Font.Size = 11;
 
                     Label tempbr = new Label();
                     tempbr.Text = "<br />";
                     tempbr.ID = "Labelbr" + panelindex.ToString();
 
-                    if (panelindex % 2 == 1)
+                    if (panelindex % 3 == 1)
                     {
                         this.Panel1.Controls.Add(panel0);
                         this.Panel1.Controls.Add(tempbr);
                     }
-                    else
+                    else if (panelindex % 3 == 2)
                     {
                         this.Panel2.Controls.Add(panel0);
                         this.Panel2.Controls.Add(tempbr);
+                    }
+                    else
+                    {
+                        this.Panel3.Controls.Add(panel0);
+                        this.Panel3.Controls.Add(tempbr);
                     }
 
                     panelindex += 1;
@@ -165,20 +178,20 @@ namespace WebApplication1
 
         }
 
-        protected void julubutton_click(object sender, EventArgs e) 
+
+        protected void jilubutton_click(object sender, EventArgs e)
         {
             Button btn = (Button)sender;
 
-            string[] ids = btn.ID.Split('0');
+            string[] ids = btn.ID.Split('_');
 
-            int ind = int.Parse(ids[1])/4+1;
+            int ind = int.Parse(ids[1]) / 4;
+            string oid = oids[ind];
+            string otype = otypes[ind];
 
-            string oid = ind.ToString();
-
-
-            string str = "<script>window.open('addjilu.aspx?oid=" +
+            string str = "<script>window.document.location.href='addjilu.aspx?oid=" +
                 oid + "&type=" + btn.Text +
-                "','_blank')</script>";
+                "&otype=" + otype + "';</script>";
             Response.Write(str);
 
         }
@@ -188,16 +201,44 @@ namespace WebApplication1
         {
             Button btn = (Button)sender;
 
-            string[] ids = btn.ID.Split('0');
+            string[] ids = btn.ID.Split('_');
 
-            int ind = int.Parse(ids[1]) / 4 + 1;
+            int ind = int.Parse(ids[1]) / 4;
+            string oid = oids[ind];
+            string otype = otypes[ind];
 
-            string oid = ind.ToString();
-
-
-            string str = "<script>window.open('setobject.aspx?oid=" +
-                oid+"','_blank')</script>";
+            string str = "<script>window.document.location.href='setobject.aspx?oid=" +
+                oid + "&otype=" + otype + "';</script>";
             Response.Write(str);
+
+        }
+
+        protected void jilutablebutton_click(object sender, EventArgs e)
+        {
+            Button btn = (Button)sender;
+
+            string[] ids = btn.ID.Split('_');
+
+            int ind = int.Parse(ids[1]) / 4 - 1;
+            string oid = oids[ind];
+            string otype = otypes[ind];
+
+            string str = "<script>window.document.location.href='jilutabel.aspx?oid=" +
+                oid + "&otype=" + otype + "';</script>";
+            Response.Write(str);
+
+        }
+
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+
+            string str = "<script>window.document.location.href='addobject.aspx';</script>";
+            Response.Write(str);
+
+
+
+
 
         }
 

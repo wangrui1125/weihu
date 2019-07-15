@@ -57,6 +57,22 @@ namespace WebApplication1
 
         protected void Button1_Click(object sender, EventArgs e)
         {
+            string otype = Request.QueryString["otype"];
+            string backweb = "";
+            switch (otype)
+            {
+                case "1":
+                    backweb = "stx";
+                    break;
+                case "2":
+                    backweb = "fzb";
+                    break;
+                case "0":
+                    backweb = "qt";
+                    break;
+
+            }
+
             string objectname = TextBox1.Text;
             string objectdes = TextBox2.Text;
 
@@ -74,7 +90,7 @@ namespace WebApplication1
             try
             {
                 objCmdusert.ExecuteNonQuery();
-                Response.Write("<script>alert('设置成功');window.document.location.href='stx.aspx';</script>");
+                Response.Write("<script>alert('设置成功');window.document.location.href='"+backweb+".aspx';</script>");
             }
             catch (Exception) { }
           

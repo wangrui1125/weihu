@@ -15,6 +15,13 @@
       
         
         
+        .style2
+        {
+            font-size: medium;
+        }
+      
+        
+        
     </style>
 
 <script language="javascript">
@@ -79,7 +86,9 @@
     </div>
     <!--endprint-->
      <p>
-         &nbsp;<asp:Button ID="Button3" runat="server" onclick="Button3_Click" Text="上移" />
+         <asp:Button ID="Button3" runat="server" onclick="Button3_Click" Text="上移" />
+         &nbsp;<asp:TextBox ID="TextBox1" runat="server" Width="30px"></asp:TextBox>
+         <span class="style2">行&nbsp;&nbsp;&nbsp;&nbsp; </span>
          <asp:Button ID="Button4" runat="server" Text="下移" onclick="Button4_Click" />
          <input type="button" name="delete" value="删除" onclick="deletelog()">
          <asp:Button ID="Button6" runat="server" onclick="Button5_Click" Text="Button" CssClass="cssstyle"/>

@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <publishData>
-  <publishProfile publishUrl="Y:\预约系统" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="False" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="预约系统" publishMethod="FTP" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+  <publishProfile publishUrl="Y:\预约系统" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="False" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="预约系统" publishMethod="FTP" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="False">
     <file relUrl="Web.config" publishTime="03/09/2017 19:36:19" />
-    <file relUrl="Appointment.aspx" publishTime="03/19/2017 19:07:15" />
+    <file relUrl="Notic.aspx" publishTime="04/03/2018 16:29:54" />
     <file relUrl="Site.Master" publishTime="05/04/2017 12:38:19" />
     <file relUrl="Account/Web.config" publishTime="03/03/2017 12:42:36" />
     <file relUrl="Account/Register.aspx" publishTime="05/04/2017 13:36:51" />
@@ -11,13 +11,44 @@
     <file relUrl="Styles/Site.css" publishTime="03/26/2017 17:34:43" />
     <file relUrl="Scripts/jquery-1.4.1.js" publishTime="03/03/2017 12:42:36" />
     <file relUrl="Account/ChangePassword.aspx" publishTime="03/03/2017 12:42:36" />
-    <file relUrl="Notic.aspx" publishTime="04/03/2018 16:29:54" />
+    <file relUrl="Default.aspx" publishTime="04/03/2018 16:32:50" />
     <file relUrl="bin/WebApplication1.dll" publishTime="04/03/2018 16:37:21" />
     <file relUrl="bin/WebApplication1.pdb" publishTime="04/03/2018 16:37:21" />
     <file relUrl="Scripts/jquery-1.4.1-vsdoc.js" publishTime="03/03/2017 12:42:36" />
     <file relUrl="About.aspx" publishTime="04/03/2018 16:19:36" />
     <file relUrl="Global.asax" publishTime="03/03/2017 12:42:36" />
-    <file relUrl="Default.aspx" publishTime="04/03/2018 16:32:50" />
+    <file relUrl="Appointment.aspx" publishTime="03/19/2017 19:07:15" />
     <file relUrl="Scripts/jquery-1.4.1.min.js" publishTime="03/03/2017 12:42:36" />
+  </publishProfile>
+  <publishProfile publishUrl="Z:\设备维护系统" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="设备维护系统" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="stx.aspx" publishTime="07/11/2019 21:51:53" />
+    <file relUrl="fzb.aspx" publishTime="07/11/2019 22:27:17" />
+    <file relUrl="Site.Master" publishTime="07/10/2019 19:49:46" />
+    <file relUrl="Styles/Site.css" publishTime="07/10/2019 19:49:46" />
+    <file relUrl="About.aspx" publishTime="07/10/2019 19:49:46" />
+    <file relUrl="Scripts/jquery-1.4.1.js" publishTime="07/10/2019 19:49:46" />
+    <file relUrl="addjilu.aspx" publishTime="07/10/2019 22:06:47" />
+    <file relUrl="bin/Newtonsoft.Json.xml" publishTime="07/10/2019 19:49:46" />
+    <file relUrl="Account/Web.config" publishTime="07/10/2019 19:49:46" />
+    <file relUrl="Account/Register.aspx" publishTime="07/10/2019 19:49:46" />
+    <file relUrl="Account/Login.aspx" publishTime="07/10/2019 19:49:46" />
+    <file relUrl="addobject.aspx" publishTime="07/11/2019 21:35:37" />
+    <file relUrl="setobject.aspx" publishTime="07/10/2019 22:39:12" />
+    <file relUrl="Scripts/jquery-1.4.1.min.js" publishTime="07/10/2019 19:49:46" />
+    <file relUrl="Global.asax" publishTime="07/10/2019 19:49:46" />
+    <file relUrl="Default.aspx" publishTime="07/11/2019 19:22:17" />
+    <file relUrl="Account/ChangePasswordSuccess.aspx" publishTime="07/10/2019 19:49:46" />
+    <file relUrl="bin/WebApplication1.pdb" publishTime="07/11/2019 22:29:04" />
+    <file relUrl="Appointment.aspx" publishTime="07/10/2019 19:49:46" />
+    <file relUrl="packages.config" publishTime="07/10/2019 19:49:46" />
+    <file relUrl="bin/WebApplication1.dll" publishTime="07/11/2019 22:29:04" />
+    <file relUrl="jilutabel.aspx" publishTime="07/11/2019 21:01:17" />
+    <file relUrl="Account/ChangePassword.aspx" publishTime="07/10/2019 19:49:46" />
+    <file relUrl="Notic.aspx" publishTime="07/10/2019 19:49:46" />
+    <file relUrl="bin/Microsoft.Web.Infrastructure.dll" publishTime="07/10/2019 19:49:46" />
+    <file relUrl="Web.config" publishTime="07/11/2019 21:10:07" />
+    <file relUrl="qt.aspx" publishTime="07/11/2019 22:27:30" />
+    <file relUrl="bin/Newtonsoft.Json.dll" publishTime="07/10/2019 19:49:46" />
+    <file relUrl="Scripts/jquery-1.4.1-vsdoc.js" publishTime="07/10/2019 19:49:46" />
   </publishProfile>
 </publishData>

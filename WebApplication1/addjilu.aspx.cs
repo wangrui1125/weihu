@@ -28,7 +28,21 @@ namespace WebApplication1
         {
             string oid = Request.QueryString["oid"];
             string type = Request.QueryString["type"];
-            int i = 1;
+            string otype = Request.QueryString["otype"];
+            string backweb = "";
+            switch (otype)
+            {
+                case "1":
+                    backweb = "stx";
+                    break;
+                case "2":
+                    backweb = "fzb";
+                    break;
+                case "0":
+                    backweb = "qt";
+                    break;
+
+            }
 
             string sConnectionString = "Provider=Microsoft.ACE.OLEDB.12.0;data source=" + Server.MapPath("~/dbMM.accdb");
 
@@ -45,7 +59,7 @@ namespace WebApplication1
             try
             {
                 objCmdusert.ExecuteNonQuery();
-                Response.Write("<script>alert('添加成功');window.document.location.href='stx.aspx';</script>");
+                Response.Write("<script>alert('添加成功');window.document.location.href='"+backweb+ ".aspx';</script>");
             }
             catch (Exception ex)
             {

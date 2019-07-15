@@ -22,8 +22,6 @@ C:\Users\Administrator\Desktop\Codes\weihu\WebApplication1\bin\Microsoft.Web.Inf
 C:\Users\Administrator\Desktop\Codes\weihu\WebApplication1\bin\Newtonsoft.Json.dll
 C:\Users\Administrator\Desktop\Codes\weihu\WebApplication1\bin\Newtonsoft.Json.xml
 C:\Users\Administrator\Desktop\Codes\weihu\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
-C:\Users\Administrator\Desktop\Codes\weihu\WebApplication1\obj\Debug\Interop.Microsoft.Office.Core.dll
-C:\Users\Administrator\Desktop\Codes\weihu\WebApplication1\obj\Debug\Interop.Microsoft.Office.Interop.Excel.dll
 C:\Users\Administrator\Desktop\Codes\weihu\WebApplication1\obj\Debug\WebApplication1.csproj.ResolveComReference.cache
 C:\Users\Administrator\Desktop\Codes\weihu\WebApplication1\obj\Debug\WebApplication1.dll
 C:\Users\Administrator\Desktop\Codes\weihu\WebApplication1\obj\Debug\WebApplication1.pdb
